@@ -1,0 +1,15 @@
+@import url("./font.css");
+@import url("./vars.css");
+@import url("./main-slider.css");
+@import url("./nav.css");
+@import url("./mobile-menu.css");
+@import url("./header.css");
+@import url("../libs/swiper/swiper-bundle.css");
+
+
+body {
+  font-family: 'Cera Pro', Arial, Helvetica, sans-serif;
+  background-color: #E5E5E5;
+  margin: 0;
+  padding: 0;
+}

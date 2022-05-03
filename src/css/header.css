@@ -1,0 +1,16 @@
+.main-header {
+	width: 1440px;
+	height: 100vh;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 70px;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.main-header {
+		padding: 35px 30px 40px 30px;
+		border-radius: 0;
+	}
+}
