@@ -1,0 +1,115 @@
+.popular-products {
+	display: grid;
+	gap: 30px;
+}
+
+.popular-products-row {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 20px;
+}
+
+.popular-products_row-reverse {
+	grid-template-columns: 1fr auto;
+}
+
+.popular-products__item,
+.popular-products__category {
+	position: relative;
+}
+
+.popular-products__category-link::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #a79c8c;
+	opacity: 0;
+	color: var(--accent);
+	transition: all .5s;
+}
+
+ .popular-products__category:hover .popular-products__category-link::before {
+	content: '';
+	position: absolute;
+	top: 20px;
+	bottom: 20px;
+	left: 10px;
+	right: 10px;
+	background-color: #a79c8c;
+	opacity: .4;
+	color: var(--accent);
+}
+
+ .popular-products__category:hover .popular-products__category-title {
+	color: var(--white);
+}
+
+.popular-products__description,
+.popular-products__category-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	font-weight: 400;
+	transition: all .5s;
+}
+
+.popular-products__category-title {
+	font-size: 2.5em;
+	padding-left: 30px;
+	padding-bottom: 25px;
+}
+
+.popular-products__description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 20px;
+	font-size: 1em;
+}
+
+.popular-products__list {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	gap: 20px;
+}
+
+.popular-products__item {
+	background-color: var(--productItemBgc);
+	max-width: 310px;
+	transition: all .5s ease;
+}
+
+.popular-products__item:hover {
+	background-color: #a79c8c;
+}
+
+.popular-products__item:hover .popular-products__description{
+	color: var(--productItemBgc);
+}
+
+@media (max-width: 767px) {
+	.popular-products-row {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+
+	.popular-products__category {
+		display: flex;
+		justify-content: center;
+	}
+
+	.popular-products__list {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.popular-products__category, .popular-products__item {
+		max-width: 25vw;
+	}
+}

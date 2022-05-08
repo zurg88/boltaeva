@@ -4,12 +4,39 @@
 @import url("./nav.css");
 @import url("./mobile-menu.css");
 @import url("./header.css");
+@import url("./home-page-popular-products.css");
 @import url("../libs/swiper/swiper-bundle.css");
 
 
 body {
   font-family: 'Cera Pro', Arial, Helvetica, sans-serif;
-  background-color: #E5E5E5;
+  background-color: var(--bodyBgc);
   margin: 0;
   padding: 0;
+}
+
+.main-content {
+  padding: 70px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 767px) {
+	.main-content {
+		width: 100vw;
+    padding: 10px;
+    margin-top: 50px;
+	}
+
+  .popular-products__category-link {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.main-content {
+		width: 100vw;
+    padding: 30px;
+	}
 }
