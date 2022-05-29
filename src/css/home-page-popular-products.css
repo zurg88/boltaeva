@@ -1,4 +1,5 @@
 .popular-products {
+	padding: 70px;
 	display: grid;
 	gap: 30px;
 }
@@ -93,6 +94,10 @@
 }
 
 @media (max-width: 767px) {
+	.popular-products {
+		padding: 0;
+	}
+
 	.popular-products-row {
 		grid-template-columns: 1fr;
 		justify-content: center;
@@ -111,5 +116,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 	.popular-products__category, .popular-products__item {
 		max-width: 25vw;
+	}
+
+	.popular-products {
+		padding: 0;
 	}
 }

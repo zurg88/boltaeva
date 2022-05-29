@@ -25,3 +25,11 @@ h1, h2 {
 	width: 100%;
 	height: auto;
 }
+
+.btn {
+	width: 310px;
+	line-height: 80px;
+	border-radius: 66px;
+	background-color: var(--productItemBgc);
+	border: none;
+}

@@ -5,6 +5,8 @@
 @import url("./mobile-menu.css");
 @import url("./header.css");
 @import url("./home-page-popular-products.css");
+@import url("./about-brand.css");
+@import url("./home-page-instagram.css");
 @import url("../libs/swiper/swiper-bundle.css");
 
 
@@ -16,7 +18,9 @@ body {
 }
 
 .main-content {
-  padding: 70px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 70px;
   width: 1440px;
   margin: 0 auto;
 }
