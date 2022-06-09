@@ -69,5 +69,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
+	.about-brand-section {
+		width: 94vw;
+	}
 }

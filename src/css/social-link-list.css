@@ -1,0 +1,23 @@
+.social-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.social-list__item,
+.social-list__link {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+
+.social-list__link {
+	line-height: 36px;
+}
+
+.social-list__item {
+	text-align: center;
+	background-color: var(--bodyBgc);
+}

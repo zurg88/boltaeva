@@ -36,5 +36,10 @@
 	.home-page-instagram__btn {
 		width: 100%;
 	}
+}
 
+@media (min-width: 768px) and (max-width: 1024px) {
+	.home-page-instagram-section {
+		width: 94vw;
+	}
 }

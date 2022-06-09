@@ -33,3 +33,9 @@ h1, h2 {
 	background-color: var(--productItemBgc);
 	border: none;
 }
+
+@media (max-width: 768px) {
+	.mobile-hidden {
+		display: none;
+	}
+}
