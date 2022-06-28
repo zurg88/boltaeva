@@ -1,6 +1,12 @@
 .about-brand-section {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	max-width: var(--sectionWidth);
+	margin: 0 auto;
+}
+
+.categories-page .about-brand-section {
+	margin: 70px auto;
 }
 
 .about-brand__description,
@@ -12,7 +18,7 @@
 .about-brand__description {
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 115px;
+	padding: 0 16%;
 }
 
 .brand-founder {
@@ -37,7 +43,7 @@
 }
 
 .about-brand__small-text {
-	font-size: 1em;
+	font-size: 1.4em;
 	line-height: 1.5;
 }
 
@@ -59,7 +65,7 @@
 	}
 
 	.about-brand__description {
-		padding: 0;
+		padding: 0 15px;
 		order: 1;
 	}
 

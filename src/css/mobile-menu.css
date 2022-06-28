@@ -123,4 +123,16 @@
 	.mobile-menu {
 		display: block;
 	}
+	
+	.header-top .mobile-menu__link {
+		color: var(--dark);
+	}
+
+	.header-top .hamburger-menu_item {
+		border: 1px solid  var(--dark);
+	}
+
+	.header-top .mobile-menu_icon {
+		fill:  var(--dark);
+	}
 }
