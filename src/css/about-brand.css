@@ -9,6 +9,14 @@
 	margin: 70px auto;
 }
 
+.product-card-main-content .about-brand-second-section .about-brand__description {
+	order: 1;
+}
+
+.product-card-main-content .about-brand-second-section .about-brand__img-block {
+	order: 2;
+}
+
 .about-brand__description,
 .brand-founder {
 	display: flex;
@@ -64,8 +72,12 @@
 		grid-auto-flow: dense;
 	}
 
+	.about-brand__img-block,
 	.about-brand__description {
 		padding: 0 15px;
+	}
+
+	.about-brand__description {
 		order: 1;
 	}
 

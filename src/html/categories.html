@@ -11,15 +11,17 @@
 
 	@@include("templates/header-top.html")
 	@@include("templates/category-top-menu.html")
+	<main>
+		<h2 class="page-title"> Care cosmetics </h2>
 
-	<h2 class="page-title"> Care cosmetics </h2>
+		<section class="page-img-section">
+			<img class="img-responsive" src="./img/page-img.png" alt="page-img">
+		</section>
 
-	<section class="page-img-section">
-		<img class="img-responsive" src="./img/page-img.png" alt="page-img">
-	</section>
-
-	@@include("templates/category-products.html")
-	@@include("templates/about-brand-second-section.html")
+		@@include("templates/category-products.html")
+		@@include("templates/about-brand-second-section.html")
+	</main>
+	
 
 	@@include("templates/footer.html")
 

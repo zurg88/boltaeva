@@ -21,6 +21,12 @@ h1, h2 {
 	margin: 0;
 }
 
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
 .img-responsive {
 	width: 100%;
 	height: auto;
